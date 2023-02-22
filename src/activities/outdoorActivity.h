@@ -1,3 +1,7 @@
+#ifndef OUTDOORACTIVITY_H
+#define OUTDOORACTIVITY_H
+
+
 #include "activity.h"
 
 enum Season {SPRING, SUMMER, FALL, WINTER, ALL};
@@ -16,3 +20,5 @@ class OutdoorActivity: public Activity{
         /*Setter*/
         void setSeason(Season s);
 };
+
+#endif // OUTDOORACTIVITY_H

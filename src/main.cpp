@@ -1,6 +1,6 @@
-#include "activity.h"
-#include "outdoorActivity.h"
-#include "indoorActivity.h"
+#include "activities/activity.h"
+#include "activities/outdoorActivity.h"
+#include "activities/indoorActivity.h"
 
 #include <stdlib.h>
 #include <iostream>

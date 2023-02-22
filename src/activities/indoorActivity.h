@@ -1,3 +1,6 @@
+#ifndef INDOORACTIVITY_H
+#define INDOORACTIVITY_H
+
 #include "activity.h"
 
 class IndoorActivity: public Activity{
@@ -14,3 +17,5 @@ class IndoorActivity: public Activity{
         /*Setter*/
         void setAtHome(bool h);
 };
+
+#endif // INDOORACTIVITY_H
