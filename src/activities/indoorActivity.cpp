@@ -1,9 +1,9 @@
 #include "indoorActivity.h"
-
+#include <QString>
 IndoorActivity::IndoorActivity() : Activity(){
     this->atHome = false;
 }
-IndoorActivity::IndoorActivity(string n, Duration d, bool h) : Activity(n, d){
+IndoorActivity::IndoorActivity(QString n, Duration d, bool h) : Activity(n, d){
     this->atHome = h;
 }
 

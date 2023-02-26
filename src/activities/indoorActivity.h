@@ -2,6 +2,7 @@
 #define INDOORACTIVITY_H
 
 #include "activity.h"
+#include <QString>
 
 class IndoorActivity: public Activity{
     private:
@@ -9,7 +10,7 @@ class IndoorActivity: public Activity{
     public:
         /*Constructors*/
         IndoorActivity();
-        IndoorActivity(string n, Duration d, bool h);
+        IndoorActivity(QString n, Duration d, bool h);
 
         /*Getter*/
         bool getAtHome();

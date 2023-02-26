@@ -1,9 +1,9 @@
 #include "outdoorActivity.h"
-
+#include <QString>
 OutdoorActivity::OutdoorActivity() : Activity(){
     this->season = ALL;
 }
-OutdoorActivity::OutdoorActivity(string n, Duration d, Season s) : Activity(n, d){
+OutdoorActivity::OutdoorActivity(QString n, Duration d, Season s) : Activity(n, d){
     this->season = s;
 }
 

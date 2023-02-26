@@ -3,6 +3,7 @@
 
 
 #include "activity.h"
+#include <QString>
 
 enum Season {SPRING, SUMMER, FALL, WINTER, ALL};
 
@@ -12,7 +13,7 @@ class OutdoorActivity: public Activity{
     public:
         /*Constructors*/
         OutdoorActivity();
-        OutdoorActivity(string n, Duration d, Season s);
+        OutdoorActivity(QString n, Duration d, Season s);
 
         /*Getter*/
         Season getSeason();

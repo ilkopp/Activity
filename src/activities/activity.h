@@ -1,7 +1,7 @@
 #ifndef ACTIVITY_H
 #define ACTIVITY_H
 
-#include <string>
+#include <QString>
 
 using namespace std;
 
@@ -9,19 +9,19 @@ enum Duration {SHORT, MEDIUM, FULLDAY, WEEKEND, UNKNOWN};
 
 class Activity{
     private:
-        string name;
+        QString name;
         Duration duration;
     public:
         /*Constructors*/
         Activity();
-        Activity(string n, Duration d);
+        Activity(QString n, Duration d);
         
         /*Getter*/
-        string getName();
+        QString getName();
         Duration getDuration();
 
         /*Setter*/
-        void setName(string n);
+        void setName(QString n);
         void setDuration(Duration d);
 };
 
