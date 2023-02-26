@@ -1,10 +1,10 @@
 #include <gtest/gtest.h>
-#include <string>
+#include <QString>
 #include "../src/activities/activity.h"
 
-string getName();
+QString getName();
 Duration getDuration();
-void setName(string n);
+void setName(QString n);
 void setDuration(Duration d);
 
 /*Tests for Constructor and Getters*/
